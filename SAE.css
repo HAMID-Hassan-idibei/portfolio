@@ -1,0 +1,106 @@
+
+
+*{
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: 'popping', sans-serif;
+  background: #091921;
+  color: #ededed;
+  box-sizing: border-box;
+  display: flex;
+ 
+ 
+}
+
+h1 {
+
+  margin-bottom: 120px;
+  text-align: center;
+ 
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  margin-top: 50px;
+ 
+  text-decoration: underline;
+}
+
+
+
+
+.block {
+  margin-bottom: 30px;
+}
+
+.projet {
+  margin-bottom: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  border: 2px solid white;
+  border-radius: 10px;
+  border-color:  #ededed;
+  margin-top: 150px;
+  margin-bottom: 50px;
+  padding: 50px ;
+ 
+}
+
+
+.back-button {
+  position: absolute;
+  top: 60px;
+  left: 80px;
+  text-decoration: none;
+  color: #ededed;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.back-button:hover{
+  color: #0ef;
+
+}
+
+.contenu {
+  text-align: justify;
+}
+p {
+  line-height: 1.5;
+  margin-bottom: 15px;
+  padding: 15px;
+   line-height: 1.5;
+   text-align: justify;
+  
+}
+
+
+ul li {
+  margin-bottom: 10px;
+}
+
+
+#btn-retour-haut {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  color: #ededed;
+  border: none;
+  border-radius: 50%;
+  opacity: 0.5;
+  text-decoration: none;
+
+  
+
+}
+
+
+#btn-retour-haut:hover {
+
+ opacity: 1;
+}

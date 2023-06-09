@@ -1,0 +1,255 @@
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'popping', sans-serif;
+    scroll-behavior: smooth;
+}
+
+
+.header{
+    
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    padding-top: 30px;
+    
+}
+
+.navbar {
+    margin-top: 15px;
+}
+
+.navbar a{
+    
+    display: inline-block;
+    font-size: 25px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 1.5s;
+}
+
+.navbar a:hover{
+    color: #0ef;
+    text-decoration: underline;
+}
+
+#active{
+    color: #0ef;
+
+}
+
+#active:hover{
+    text-decoration: none;
+  }
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #091921;
+}
+
+
+.container1 {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0;
+}
+
+.team{
+    margin-top: 60px;
+    padding-top: 40px;
+}
+
+.team h2{
+    padding: 20px;
+    color: #ededed;
+    font-size: 60px;
+    margin: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh; 
+    margin-top: 80px;
+   
+}
+div .semestre{
+
+    color: #ededed;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    margin-top: 50px;
+    text-decoration: underline;
+   
+}
+
+.container1 .card{
+    position: relative;
+    width: 300px;
+    height: 480px;
+    background-color: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.imgBX{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 10px solid rgba(0, 0, 0, 0.25);
+    margin: 20%;
+    bottom: 35%;
+}
+
+
+.content{
+    position: relative;
+   
+}
+
+.contentBX{
+    position: absolute;
+    top: 55%
+} 
+
+
+
+.imgBX img{
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+
+#titanic:hover{
+    width: 110%;
+    height: 110%;
+    transition: 1s;
+}
+
+.container1 .card .content h3 {
+    color: #ededed;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+}
+
+.container1 .card .content h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+}
+
+.container1 .card .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(40px);
+    transition: 0.5s;
+    opacity: 0;
+    transition-delay: calc(0.1s * var(--i));
+}
+
+.container1 .card .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.container1 .card .sci li a {
+    color: #ededed;
+    font-size: 20px;
+}
+
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.btn-box{
+    display: inline-block;
+    padding: 12px 28px;
+    background: rgba(0, 238, 255, 0.363);
+    border-radius: 40px;
+    font-size: 16px;
+    color: #091B29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 350px;
+   
+    
+}
+
+.btn-box:hover{
+    box-shadow: 0 0 5px cyan, 
+    0 0 25px cyan,
+    0 0 200px cyan;
+
+}
+
+
+#btn-retour-haut {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 9999;
+     color: #ededed;
+     border: none;
+     border-radius: 50%;
+     opacity: 0.5;
+     text-decoration: none;
+     
+
+}
+
+
+#btn-retour-haut:hover {
+   
+    opacity: 1;
+  }
+
+
+
+
+  
